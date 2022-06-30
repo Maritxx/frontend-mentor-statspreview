@@ -112,11 +112,11 @@ p {
 @media screen and (max-width: 993px) {
 	.preview-card__holder {
 		flex-direction: column-reverse;
-		max-width: 650px;
+		max-width: 550px;
 	}
 
 	.preview-card__content {
-		min-width: 320px;
+		min-width: calc(320px - 60px);
 		flex: 0 1 100%;
 		padding: 30px;
 		text-align: center;
@@ -131,5 +131,6 @@ p {
 
 	.statistics__holder {
 		flex-direction: column;
+		padding-top: 25px;
 	}
 }
