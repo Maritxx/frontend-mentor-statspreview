@@ -27,20 +27,21 @@ h1 {
 p {
 	color: var(--p-primary);
 	font-size: 0.937rem;
-	font-family: var(--content-font);
+	line-height: 1.5;
 }
 
-span.heading__accent {
+.heading__accent {
 	color: var(--accent-primary);
 }
 
-span.data__heading {
+.data__heading {
 	font-size: 1.5rem;
 	font-weight: 700;
 	color: var(--stats-primary);
+	display: block;
 }
 
-span.data__content {
+.data__content {
 	font-size: 0.937rem;
 	color: var(--stats-secondary);
 	text-transform: uppercase;
