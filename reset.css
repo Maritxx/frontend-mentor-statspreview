@@ -5,10 +5,10 @@
 :root {
   --bg-primary: #090B1A;
   --bg-secondary: #1B1938;
-  --accent-primary: #A65ED4;
+  --accent-primary: #AA5EDA;
   --stats-primary: #FFFFFF;
   --stats-secondary: rgba(255, 255, 255, 0.6);
-  --p-primary: rgba(255, 255, 255, 0.75);
+  --p-primary: rgba(255, 255, 255, 0.6);
   --main-font: 'Inter', 'Arial', sans-serif;
   --content-font: 'Lexend Deca', 'Arial', sans-serif; 
 
