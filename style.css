@@ -5,7 +5,7 @@ body {
 }
 
 .preview-card {
-	min-height: calc(100vh - 41px);
+	min-height: calc(100vh - 34px);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -132,5 +132,13 @@ p {
 	.statistics__holder {
 		flex-direction: column;
 		padding-top: 25px;
+	}
+
+	.statistics__data-box {
+		padding-bottom: 25px;
+	}
+
+	.statistics__data-box:last-child {
+		padding-bottom: 0px;
 	}
 }
